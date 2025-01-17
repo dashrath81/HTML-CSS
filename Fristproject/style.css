@@ -1,0 +1,578 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* main and nav */
+.main {
+    background-color: black;
+    overflow-x: hidden;
+    width: 100vh;
+    width: 100%;
+    font-family:myfont;
+
+}
+/* word in lighs */
+.john1{
+    position: relative;
+    left: 510px;
+    bottom: 418PX;
+    font-size: 30PX;
+}
+.john2{
+    position: relative;
+    left: 605px;
+    bottom: 455PX;
+    font-size: 30PX;
+    
+}
+.john3{
+    position: relative;
+    left: 710px;
+    bottom: 490PX;
+    font-size: 30PX;
+}
+.john4{
+    position: relative;
+    left: 810px;
+    bottom: 520PX;
+    font-size: 30PX;
+}
+.john5{
+    position: relative;
+    left: 1005px;
+    bottom: 555PX;
+    font-size: 30PX;
+}
+.john6{
+    position: relative;
+    left: 1108px;
+    bottom: 590PX;
+    font-size: 30PX;
+}
+.john7{
+    position: relative;
+    left: 1208px;
+    bottom: 630PX;
+    font-size: 30PX;
+}
+
+/* light img */
+
+.light1 {
+    position: relative;
+    left: 400px;
+    height: 280px;
+    
+    
+}
+.light2 {
+    position: relative;
+    left: 270px;
+    height: 280px;
+    
+}.light3 {
+    position: relative;
+    left: 140px;
+    height: 280px;
+    
+}.light4 {
+    position: relative;
+    left: 8px;
+    height: 280px;
+    
+}.light5{
+    position: relative;
+    right: 28px;
+    height: 280px;
+    
+}.light6 {
+    position: relative;
+    right: 160px;
+    height: 280px;
+    
+}.light7 {
+    position: relative;
+    bottom: 285px;
+    left: 1100px;
+    height: 280px;
+    
+}
+.MO:hover{
+    filter: contrast(1.8);
+}
+
+
+@font-face {
+    font-family: myfont;
+    src: url(PT_Sans_Narrow.zip);
+}
+ .head1 {
+    height: 740px;
+    width: 140px;
+    background-color: rgba(114, 113, 113, 0.292);
+    position: fixed;
+}
+/* headern img */
+.im1 {
+    height: 150px;
+    width: 136px;
+    position: relative;
+    opacity: 0.5;
+}
+
+nav {
+    width: 135px;
+
+    a {
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .fa-solid {
+        position: relative;
+        left: 45px;
+        height: 110px;
+        top: 10px;
+    }
+
+}
+
+.pooo1 {
+    position: relative;
+    left: 14px;
+
+}
+
+
+.poo:hover {
+    background-color: black;
+}
+
+.hov {
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+
+.hob {
+    position: relative;
+    top: 50px;
+    right: 24px;
+
+}
+
+/* img and h1 */
+.l1 {
+    position: relative;
+    left: 690px;
+    color: white;
+    bottom:440px ;
+
+}
+
+.h1 {
+    font-size: 40px;
+    position: relative;
+    word-spacing: 6px;
+    bottom: 460px;
+    left: 670px;
+    color: white;
+}
+ /* main img */
+.im2 {
+
+    position: relative;
+    left: 330px;
+    bottom: 380px;
+    filter: contrast(1.5);
+}
+
+/* about */
+
+h2 {
+    position: relative;
+    left: 380px;
+    bottom: 40PX;
+    color: white;
+}
+
+.w1 {
+    color: white;
+    position: relative;
+    top: 20PX;
+    left: 380px;
+    display: flex;
+    text-align: justify;
+    height: 100px;
+    width: 880px;
+}
+
+.e1 {
+    position: relative;
+    top: 100px;
+}
+
+.p2 {
+    position: relative;
+    top: 150px;
+    left: 380px;
+    letter-spacing: 5px;
+    color: white;
+
+}
+
+.box1 {
+    height: 25px;
+    width: 800px;
+    background-color: gray;
+    position: relative;
+    top: 160px;
+    left: 380px;
+}
+
+.box2 {
+    height: 25px;
+    width: 80px;
+    background-color: white;
+    position: relative;
+    top: 135px;
+    left: 1180px;
+}
+
+.heigh {
+    width: 720px;
+
+}
+
+.width {
+    width: 160px;
+    position: relative;
+    left: 1100px;
+}
+
+.t2 {
+    font-size: 20px;
+}
+
+.box0 {
+    height: 120px;
+    width: 880px;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 180px;
+    left: 380px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bo1 {
+    position: relative;
+    top: 200px;
+    padding: 20px;
+    font-size: 20px;
+    left: 380px;
+}
+
+.bo1:hover {
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+
+/* price section */
+h3 {
+    color: white;
+    position: relative;
+    top: 235px;
+    left: 380px;
+}
+
+ul {
+    text-decoration: none;
+
+}
+
+li {
+    text-decoration: none;
+    color: white;
+    border: 1px solid gray;
+    width: 400px;
+    padding: 18px;
+    position: relative;
+    top: 270px;
+    left: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ww2 {
+    padding: 40px;
+    background-color: rgb(62, 60, 60);
+}
+
+
+.ww3 {
+    background-color: gray;
+    padding: 40px;
+}
+
+.wr {
+    background-color: rgb(149, 144, 144);
+}
+
+.wwe1 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.wwe1:hover {
+    background-color: black;
+    color: white;
+}
+
+.uu1 {
+    position: relative;
+    bottom: 525px;
+    left: 480px;
+}
+
+
+.pp1 {
+    position: relative;
+    bottom: 200px;
+    left: 380px;
+    font-size: 25px;
+    color: white;
+}
+
+.boxforim {
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 60% 60% 60% 60%;
+    overflow: hidden;
+    position: relative;
+    bottom: 225px;
+    left: 380px;
+
+    .imhe {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.pera {
+    color: white;
+    position: relative;
+    bottom: 140px;
+    left: 520px;
+}
+
+.boxforim2 {
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 60% 60% 60% 60%;
+    overflow: hidden;
+    position: relative;
+    bottom: 200px;
+    left: 380px;
+
+    .imhe {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.tera {
+    color: white;
+    position: relative;
+    bottom: 110px;
+    left: 520px;
+}
+
+.tera2 {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 60px;
+    left: 380px;
+}
+/* photos section */
+
+.photos {
+    overflow: hidden;
+}
+
+.imo {
+    width: 400px;
+    position: relative;
+    bottom: 220px;
+
+}
+
+.img1 {
+    position: relative;
+    bottom: 370px;
+    left: 380px;
+
+}
+
+.img2 {
+    position: relative;
+    left: 390px;
+}
+
+.img3 {
+    position: relative;
+    top: 323px;
+    right: 430px;
+}
+
+.img4 {
+    position: relative;
+    left: 795px;
+
+}
+
+.img5 {
+    position: relative;
+    top: 50px;
+    left: 390px;
+}
+
+.img6 {
+    position: relative;
+    right: 430px;
+    top: 335px;
+}
+
+.img7 {
+    position: relative;
+    left: 794px;
+    top: 64px;
+
+}
+
+/* abiut section */
+.about {
+    overflow: hidden;
+}
+
+.re1 {
+    margin-top: 280px;
+    font-size: 30px;
+}
+
+.vv2 {
+    color: gray;
+    position: relative;
+    font-size: larger;
+    top: 100px;
+    left: 400px;
+}
+
+.vv3 {
+    color: gray;
+    font-size: 25px;
+    position: relative;
+    font-size: larger;
+    top: 130px;
+    left: 380px;
+
+}
+
+input {
+    display: flex;
+    font-size: 15px;
+    margin: 20px;
+    width: 810px;
+    padding: 15px;
+    position: relative;
+    top: 140px;
+    left: 360px;
+    outline: none;
+}
+
+.but1 {
+    padding: 15px;
+    position: relative;
+    top: 140px;
+    left: 380px;
+}
+
+.but1:hover {
+    background-color: black;
+    color: white;
+}
+
+/* footer section */
+.fa-brands {
+    color: gray;
+    font-size: 20px;
+    margin: 3px;
+    position: relative;
+    top: 340px;
+    left: 380px;
+}
+
+.fa-brands:hover {
+    color: rgb(64, 63, 63);
+}
+
+.col1 {
+    color: gray;
+    position: relative;
+    top: 360px;
+    left: 380px;
+}
+
+.real1 {
+    color: gray;
+    position: relative;
+    top: 228px;
+    left: 460px;
+}
+
+.real1:hover {
+    color: aquamarine;
+}
+
+.boxx {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: relative;
+    left: 140px;
+    top: 300px;
+}
+
+.real2 {
+    color: gray;
+    position: relative;
+    font-size: 20px;
+    color: red;
+
+}
+
+.bold {
+    font-size: 30px;
+}
+
+.boxx0 {
+    color: white;
+    position: relative;
+    position: relative;
+    top: 160px;
+    left: 380px;
+
+}
